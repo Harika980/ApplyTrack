@@ -89,7 +89,7 @@ const AddApplication = () => {
 
 
             const response = await axios.post(
-                "https://applytrack-fkni.onrender.com//api/applications",
+                "https://applytrack-1-p2en.onrender.com//api/applications",
                 applicationData,
                 {
                     headers: {

@@ -39,7 +39,7 @@ const Analytics = () => {
                 }
 
                 const response = await axios.get(
-                    "https://applytrack-fkni.onrender.com//api/applications",
+                    "https://applytrack-1-p2en.onrender.com//api/applications",
                     {
                         headers: {
                             Authorization: `Bearer ${token}`
