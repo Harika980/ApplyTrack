@@ -1,0 +1,4 @@
+# do not upload these files” list for Git/GitHub
+
+node_modules
+.env
