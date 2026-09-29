@@ -44,7 +44,7 @@ const Applications = () => {
 
 
             const response = await axios.get(
-                "http://localhost:5000/api/applications",
+                "https://applytrack-fkni.onrender.com//api/applications",
                 {
                     params: {
                         search: searchValue,
@@ -175,7 +175,7 @@ const Applications = () => {
 
 
             await axios.delete(
-                `http://localhost:5000/api/applications/${id}`,
+                `https://applytrack-fkni.onrender.com//api/applications/${id}`,
                 {
                     headers: {
                         Authorization:

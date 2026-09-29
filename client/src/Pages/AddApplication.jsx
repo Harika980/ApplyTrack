@@ -89,7 +89,7 @@ const AddApplication = () => {
 
 
             const response = await axios.post(
-                "http://localhost:5000/api/applications",
+                "https://applytrack-fkni.onrender.com//api/applications",
                 applicationData,
                 {
                     headers: {

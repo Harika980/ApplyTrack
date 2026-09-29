@@ -36,7 +36,7 @@ const EditApplication = () => {
                 }
 
                 const response = await axios.get(
-                    "http://localhost:5000/api/applications",
+                    "https://applytrack-fkni.onrender.com//api/applications",
                     {
                         headers: {
                             Authorization: `Bearer ${token}`
@@ -116,7 +116,7 @@ const EditApplication = () => {
             }
 
             const response = await axios.put(
-                `http://localhost:5000/api/applications/${id}`,
+                `https://applytrack-fkni.onrender.com//api/applications/${id}`,
                 formData,
                 {
                     headers: {
