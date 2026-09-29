@@ -52,7 +52,7 @@ const Register = () => {
 
         try {
             const response = await axios.post(
-                "https://applytrack-1-p2en.onrender.com//api/auth/register",
+                "https://applytrack-1-p2en.onrender.com/api/auth/register",
                 {
                     name: formData.name,
                     email: formData.email,
